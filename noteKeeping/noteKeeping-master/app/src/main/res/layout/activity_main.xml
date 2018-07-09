@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#424242">
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/notepad" />
+    </android.support.v7.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/edittext"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:scrollHorizontally="true"
+                android:singleLine="true" />
+
+            <Button
+                android:id="@+id/btn"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="OK" />
+        </LinearLayout>
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginVertical="10dp">-->
+
+            <!--<Button-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="20dp"-->
+                <!--android:layout_marginHorizontal="10dp"-->
+                <!--android:layout_weight="1"-->
+                <!--android:background="@color/yellow"-->
+                <!--android:id="@+id/yel"/>-->
+
+            <!--<Button-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="20dp"-->
+                <!--android:layout_marginHorizontal="10dp"-->
+                <!--android:layout_weight="1"-->
+                <!--android:background="#388e3c"-->
+                <!--android:id="@+id/gree"/>-->
+
+            <!--<Button-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="20dp"-->
+                <!--android:layout_marginHorizontal="10dp"-->
+                <!--android:layout_weight="1"-->
+                <!--android:background="#e64a19"-->
+                <!--android:id="@+id/red"/>-->
+        <!--</LinearLayout>-->
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </ScrollView>
+
+</LinearLayout>
