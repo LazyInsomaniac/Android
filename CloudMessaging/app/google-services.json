@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1045962828934",
+    "firebase_url": "https://cloudmessaging-c03e2.firebaseio.com",
+    "project_id": "cloudmessaging-c03e2",
+    "storage_bucket": "cloudmessaging-c03e2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1045962828934:android:4a7086f29c9a6d60",
+        "android_client_info": {
+          "package_name": "com.example.sambhav.cloudmessaging"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1045962828934-jm0457tnvn7idqp526f88o0ieeq6b5bu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sambhav.cloudmessaging",
+            "certificate_hash": "ccdbecd1d1718a9eca4b748ef5d4208acc14a366"
+          }
+        },
+        {
+          "client_id": "1045962828934-am9ckolp8p3tqc3lq0c5ujm8tv3nep1n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHS-cGH3oNQxECaZZ0oij9X7BarJPHvco"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1045962828934-am9ckolp8p3tqc3lq0c5ujm8tv3nep1n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
